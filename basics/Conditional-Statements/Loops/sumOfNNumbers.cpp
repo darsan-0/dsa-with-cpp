@@ -1,4 +1,4 @@
-// Sum of N +ve snumbers
+// Sum of N +ve numbers
 #include <iostream>
 using namespace std;
 
