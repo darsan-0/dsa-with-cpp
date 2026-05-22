@@ -1,0 +1,23 @@
+# Executable files
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Build folders
+build/
+bin/
+
+# MinGW / GCC generated
+a.exe
+a.out
