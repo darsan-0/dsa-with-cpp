@@ -9,9 +9,15 @@ int main(){
 
     for ( int i = 1 ; i <= num ; i++){
 
-        for (int j=num; j >= i ; j--){
+        //Spaces.
+        for (int j =0 ; j <= i ; j++){
+            cout << " ";
+        }
 
-            cout << i << " " ;
+        //numbers
+        
+        for (int j =0 ; j <= num - i ; j++){
+            cout << i;
         }
         cout << "\n" ;
     }
@@ -19,3 +25,5 @@ int main(){
 
     return 0;
 }
+
+
