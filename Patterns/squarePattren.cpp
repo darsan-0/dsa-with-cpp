@@ -7,7 +7,7 @@ int main(){
     cout << "Enter n value: ";
     cin >> n;
     for ( int i = 1 ; i <= n ; i++ ){
-        for ( int j = 1 ; j <= n ; j++ ){
+        for ( char j = 'A' ; j <= 'D' ; j++ ){
             cout << j << " " ; ;
         }
         cout << endl;
