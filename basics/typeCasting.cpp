@@ -2,12 +2,11 @@
     //        |
     // -----------------
     // convesion    Casting
-/**1.Conversion --> Its Implicit (It is done by the compiler.)
-- There is no loos of date [Big date type to smaller one.]
-2.Casting -->Explicit ,It is deon by the Programer forece fully.
-- There may be loos of date [Small date type to Bigger one.]
-*/
-// Convering Data from one type to another type.
+// # Type Casting vs Conversion
+
+// ## Overview
+// * **Conversion (Implicit):** Done by compiler. Small to large type. No data loss.
+// * **Casting (Explicit):** Done by programmer. Large to small type. Risk of data loss.
 
 #include <iostream>
 using namespace std;
