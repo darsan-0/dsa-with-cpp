@@ -17,7 +17,7 @@ vector <int> pairSum(vector <int> vec,int target){
             return ans;
         }else if (ps > target){
             j--;
-        }else{
+        }else if (ps < target){
             i++;
         }
     }
