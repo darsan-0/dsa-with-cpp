@@ -8,7 +8,7 @@ int main(){
 
 // Choice 2: Start a new subarray starting from the current element. If the maximum subarray sum ending at the previous index is negative, it is always better to start a new subarray from the current element.
 
-    vector <int> vec = {3,-4,5,4-1,7,-8};
+    vector <int> vec = {3,-4,5,4,-1,7,-8};
     int n = vec.size();
     int maxsum = INT_MIN;
     int currsum = 0;

@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    vector <int> vec = {3,-4,5,4-1,7,-8};
+    vector <int> vec = {3,-4,5,4,-1,7,-8};
     int n = vec.size();
     int sum = INT_MIN;
     for(int st = 0; st < n; st++ ){
